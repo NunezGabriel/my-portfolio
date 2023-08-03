@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 /* Box sizing rules */
 *,
 *::before,
@@ -36,7 +37,6 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -78,5 +78,6 @@ select {
 }
 
 :root {
-  background-color: #061323;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
 }
