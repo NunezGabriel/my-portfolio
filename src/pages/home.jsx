@@ -20,6 +20,24 @@ const Home = () => {
           </div>
         </div>
         <img src={hemisphere} alt="black hole" className="" />
+        <div className="flex mt-28 justify-around w-full max-w-xl md:">
+          <div className="grid text-gray-200">
+            <h1 className="text-7xl">
+              3<span>+</span>
+            </h1>
+            <div className="w-24 md:w-32">
+              <p className="text-gray-400">years working on web projects</p>
+            </div>
+          </div>
+          <div className="grid text-gray-200">
+            <h1 className="text-7xl">
+              30<span>+</span>
+            </h1>
+            <div className="w-32">
+              <p className="text-gray-400">projects created</p>
+            </div>
+          </div>
+        </div>
         <SocialModal />
       </MainContainer>
     </div>
