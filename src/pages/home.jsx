@@ -1,6 +1,7 @@
 import MainContainer from "../components/mainContainer";
 import NavBar from "../components/navBar";
 import SocialModal from "../components/socialModal";
+import About from "../sections/about";
 
 import hemisphere from "../assets/hemisphere.gif";
 const Home = () => {
@@ -38,6 +39,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <About />
         <SocialModal />
       </MainContainer>
     </div>
