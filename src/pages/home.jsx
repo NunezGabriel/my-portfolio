@@ -1,5 +1,6 @@
 import MainContainer from "../components/mainContainer";
 import NavBar from "../components/navBar";
+import SocialModal from "../components/socialModal";
 
 import hemisphere from "../assets/hemisphere.gif";
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
           </div>
         </div>
         <img src={hemisphere} alt="black hole" className="" />
+        <SocialModal />
       </MainContainer>
     </div>
   );
