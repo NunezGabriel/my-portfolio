@@ -1,8 +1,14 @@
 import MainContainer from "../components/mainContainer";
 import NavBar from "../components/navBar";
 import SocialModal from "../components/socialModal";
+import About from "../sections/about";
+import Skills from "../sections/skills";
+import Proyects from "../sections/proyects";
+import Contact from "../sections/contactMe";
 
+import giphy from "../assets/giphy.gif";
 import hemisphere from "../assets/hemisphere.gif";
+
 const Home = () => {
   return (
     <div>
@@ -38,20 +44,36 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <SocialModal />
+        <About />
+        <Skills />
+        <img
+          src={giphy}
+          alt="circle star"
+          className="absolute hidden top-[960px] right-[-100px] w-[200px] h-[200px] md:block"
+        />
+        <img
+          src={giphy}
+          alt="circle star"
+          className="absolute hidden top-[1360px] left-[-150px] w-[250px] h-[250px] md:block"
+        />
+        <img
+          src={giphy}
+          alt="circle star"
+          className="absolute hidden top-[1660px] right-[-100px] w-[300px] h-[300px] md:block"
+        />
+        <img
+          src={giphy}
+          alt="circle star"
+          className="absolute hidden top-[1960px] left-[-145px] w-[350px] h-[350px] md:block"
+        />
+        <Proyects />
+        <Contact />
+        {/* <SocialModal /> */}
       </MainContainer>
     </div>
   );
 };
 
 {
-  /* <p className="text-left text-gray-400 font-light">
-Front-end developer with experience working in various projects
-with JavaScript, React, CSS, HTML, Tailwind. Self-taught
-professional with great ownership and accountability, highly
-proactive and resilient. Currently looking for new professional
-challenges as a Front-end developer to advance in my career and
-grow in the technology industry alongside a high-performing team.
-</p> */
 }
 export default Home;
