@@ -1,5 +1,6 @@
 import { LiaGripLinesSolid } from "react-icons/lia";
 import vectorG from "../assets/vectorG.png";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (

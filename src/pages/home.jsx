@@ -3,12 +3,12 @@ import NavBar from "../components/navBar";
 import SocialModal from "../components/socialModal";
 import About from "../sections/about";
 import Skills from "../sections/skills";
-
-import zac from "../assets/zac.gif";
-import giphy from "../assets/giphy.gif";
-
-import hemisphere from "../assets/hemisphere.gif";
 import Proyects from "../sections/proyects";
+import Contact from "../sections/contactMe";
+
+import giphy from "../assets/giphy.gif";
+import hemisphere from "../assets/hemisphere.gif";
+
 const Home = () => {
   return (
     <div>
@@ -67,7 +67,8 @@ const Home = () => {
           className="absolute hidden top-[1960px] left-[-145px] w-[350px] h-[350px] md:block"
         />
         <Proyects />
-        <SocialModal />
+        <Contact />
+        {/* <SocialModal /> */}
       </MainContainer>
     </div>
   );

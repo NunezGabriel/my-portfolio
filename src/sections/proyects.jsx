@@ -1,4 +1,8 @@
 import { BsStack } from "react-icons/bs";
+import keepable from "../assets/keepable.png";
+import gTHome from "../assets/gTHome.png";
+import pokedex from "../assets/pokedex.png";
+import eatable from "../assets/eatable.png";
 
 const Proyects = () => {
   return (
@@ -14,11 +18,35 @@ const Proyects = () => {
         </p>
       </div>
       <div className="grid mt-4 md:justify-center gap-6 md:flex md:flex-wrap">
-        <div className="w-full h-64 bg-black bg-opacity-40 rounded-2xl md:w-80 cursor-pointer"></div>
-        <div className="w-full h-64 bg-black bg-opacity-40 rounded-2xl md:w-80 cursor-pointer"></div>
-        <div className="w-full h-64 bg-black bg-opacity-40 rounded-2xl md:w-80 cursor-pointer"></div>
-        <div className="w-full h-64 bg-black bg-opacity-40 rounded-2xl md:w-80 cursor-pointer"></div>
-        <div className="w-full max-w-2xl h-16 bg-black bg-opacity-40 rounded-3xl text-gray-200 md:text-gray-700 grid content-center justify-center text-xl hover:text-gray-300 ease-in duration-300 cursor-pointer">
+        <div className="w-full h-64 bg-black bg-opacity-40 rounded-2xl md:w-80 cursor-pointer overflow-hidden">
+          <img
+            src={gTHome}
+            alt=""
+            className="h-full w-full object-cover object-center "
+          />
+        </div>
+        <div className="w-full h-64 bg-black bg-opacity-40 rounded-2xl md:w-80 cursor-pointer overflow-hidden">
+          <img
+            src={pokedex}
+            alt=""
+            className="h-full w-full object-cover object-center "
+          />
+        </div>
+        <div className="w-full h-64 bg-black bg-opacity-40 rounded-2xl md:w-80 cursor-pointer overflow-hidden">
+          <img
+            src={eatable}
+            alt=""
+            className="h-full w-full object-cover object-center "
+          />
+        </div>
+        <div className="w-full h-64 bg-black bg-opacity-40 rounded-2xl md:w-80 cursor-pointer overflow-hidden ">
+          <img
+            src={keepable}
+            alt=""
+            className="h-full w-full object-cover object-left "
+          />
+        </div>
+        <div className="w-full max-w-2xl h-16 bg-black bg-opacity-40 rounded-3xl text-gray-200 md:text-gray-400 grid content-center justify-center text-xl hover:text-gray-200 ease-in duration-300 cursor-pointer">
           All my proyects
         </div>
       </div>

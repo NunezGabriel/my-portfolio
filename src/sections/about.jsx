@@ -18,7 +18,11 @@ const About = () => {
           alongside a high-performing team.
         </p>
         <div className="w-40 h-40 mx-auto rounded-full overflow-hidden">
-          <img src={picture} alt="profile picture" className="w-96 h-44" />
+          <img
+            src={picture}
+            alt="profile picture"
+            className="h-full w-full object-cover object-center scale-125"
+          />
         </div>
       </div>
     </div>
