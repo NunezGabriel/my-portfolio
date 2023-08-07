@@ -1,4 +1,6 @@
 import { BsStack } from "react-icons/bs";
+import { Link } from "react-router-dom";
+
 import keepable from "../assets/keepable.png";
 import gTHome from "../assets/gTHome.png";
 import pokedex from "../assets/pokedex.png";
@@ -47,7 +49,9 @@ const Proyects = () => {
           />
         </div>
         <div className="w-full max-w-2xl h-16 bg-black bg-opacity-40 rounded-3xl text-gray-200 md:text-gray-400 grid content-center justify-center text-xl hover:text-gray-200 ease-in duration-300 cursor-pointer">
-          All my proyects
+          <Link to={"/proyects"} style={{ textDecoration: "none" }}>
+            All my proyects
+          </Link>
         </div>
       </div>
     </div>
