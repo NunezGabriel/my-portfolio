@@ -13,7 +13,6 @@ const Home = () => {
   return (
     <div>
       <NavBar />
-
       <MainContainer>
         <div className="grid gap-8">
           <h1 className="text-gray-200 text-5xl md:text-8xl text-center ">
@@ -68,7 +67,7 @@ const Home = () => {
         />
         <Proyects />
         <Contact />
-        {/* <SocialModal /> */}
+        <SocialModal />
       </MainContainer>
     </div>
   );
