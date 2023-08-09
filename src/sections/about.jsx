@@ -3,7 +3,10 @@ import picture from "../assets/picture.png";
 
 const About = () => {
   return (
-    <div className="w-full max-w-2xl p-10 bg-gray-700 bg-opacity-40 mt-28 rounded-xl z-20">
+    <div
+      id="about"
+      className="w-full max-w-2xl p-10 bg-gray-700 bg-opacity-40 mt-28 rounded-xl z-20"
+    >
       <div className="flex items-center gap-2 mb-4">
         <BsFillPersonFill fontSize={25} color="#BBBDBD" />
         <h1 className="text-gray-300 text-2xl ">About</h1>
