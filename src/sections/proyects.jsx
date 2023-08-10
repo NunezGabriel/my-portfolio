@@ -27,7 +27,7 @@ const Proyects = () => {
           <img
             src={gTHome}
             alt=""
-            className="h-full w-full object-cover object-center hover:grayscale duration-300"
+            className="h-full w-full object-cover object-center hover:scale-125 duration-300"
           />
           <div className="p-2 bg-gray-800 rounded-xl absolute top-3 left-3 border">
             <p className="text-gray-400 text-md">Get that home</p>
@@ -51,7 +51,7 @@ const Proyects = () => {
           <img
             src={pokedex}
             alt=""
-            className="h-full w-full object-cover object-center hover:grayscale duration-300"
+            className="h-full w-full object-cover object-center hover:scale-125 duration-300"
           />
           <div className="p-2 bg-gray-800 rounded-xl absolute top-3 left-3 border border-white">
             <p className="text-gray-400 text-md">Pokedex</p>
@@ -72,7 +72,7 @@ const Proyects = () => {
           <img
             src={eatable}
             alt=""
-            className="h-full w-full object-cover object-center hover:grayscale duration-300"
+            className="h-full w-full object-cover object-center hover:scale-125 duration-300"
           />
           <div className="p-2 bg-gray-800 rounded-xl absolute top-3 left-3 border border-white">
             <p className="text-gray-400 text-md">Eatable filters</p>
@@ -93,7 +93,7 @@ const Proyects = () => {
           <img
             src={keepable}
             alt=""
-            className="h-full w-full object-cover object-left hover:grayscale duration-300"
+            className="h-full w-full object-cover object-left hover:scale-125 duration-300"
           />
           <div className="p-2 bg-gray-800 rounded-xl absolute top-3 left-3 border border-white">
             <p className="text-gray-400 text-md">Keepable</p>
