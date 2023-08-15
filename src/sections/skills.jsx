@@ -27,7 +27,7 @@ const Skills = () => {
         <h1 className="text-gray-300 text-2xl ">Skills</h1>
       </div>
       <div className="w-full flex flex-wrap place-content-center gap-4 mt-7">
-        <div className="w-28 h-28 bg-black bg-opacity-40 rounded-xl flex place-content-center place-items-center">
+        <div className="w-28 h-28 bg-black bg-opacity-40 rounded-xl flex place-content-center place-items-center duration-300 ease-in-out">
           <FaReact color="#BBBDBD" fontSize={60} />
         </div>
         <div className="w-28 h-28 bg-black bg-opacity-40 rounded-xl flex place-content-center place-items-center">
