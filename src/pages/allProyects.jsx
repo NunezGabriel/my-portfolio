@@ -54,7 +54,7 @@ const AllProyects = () => {
           </Link>
 
           <Link
-            to={"https://pokedex-rose-rho-81.vercel.app/"}
+            to={"pokedex-beta-pied.vercel.app/"}
             style={{ textDecoration: "none" }}
             target="_blank"
             rel="noopener noreferrer"
